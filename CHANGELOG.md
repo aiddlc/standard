@@ -1,6 +1,6 @@
 # Changelog
 
-All normative changes to the AIDDLC Standard are recorded in this file. Changes are categorised as Patch, Minor, Major, or Breaking per the classification defined in [GOVERNANCE.md](https://github.com/aiddlc/.github/blob/main/GOVERNANCE.md).
+All normative changes to the AIDDLC Standard are recorded in this file. Changes are categorised as Patch, Minor, Major, or Breaking per the classification defined in [GOVERNANCE.md](https://github.com/aiddlc/.github/blob/stable/GOVERNANCE.md).
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
@@ -43,8 +43,9 @@ Initial public release of the AIDDLC Standard.
 - Drift detection methodology — terminology drift, architectural drift, decision contradiction, scope drift
 
 **Compliance Integration** (Section 8)
-- Regulatory mapping table: GDPR/UK GDPR, MHRA (SaMD), CQC, GPhC, FCA, HIPAA, ISO 27001, EU AI Act
+- Universal regulatory mapping table: data protection, medical device software, clinical quality, pharmaceutical, financial services, healthcare privacy, information security, and AI-governance frameworks
 - Compliance Matrix structure and lifecycle management guidance
+- Industry Profiles: specific framework mappings published in annexes
 
 **Conformance Requirements** (Section 9)
 - Full Conformance — seven requirements
@@ -61,7 +62,7 @@ Initial public release of the AIDDLC Standard.
 
 **Annexes**
 - Annex A: Certification Criteria (engineering-track requirements, regulated conformance requirements, evidence requirements, certification period)
-- Annex B: Compliance Mapping (detailed GDPR, MHRA, FCA, EU AI Act obligation-to-artifact tables)
+- Annex B: Compliance Mapping (regulatory obligation-to-artifact tables — see annex for named framework detail)
 - Annex C: Product Track — Community Development Areas (specific questions, constraints, and contribution guidance for all four community areas)
 
 **Governance and process documents**
@@ -69,5 +70,5 @@ Initial public release of the AIDDLC Standard.
 - Certification programme criteria published at [github.com/aiddlc/certification](https://github.com/aiddlc/certification)
 
 **Reference implementation**
-- AIDDLC Reference Portal proven in production on Club Health OS (CQC-registered, MHRA-compliant, GPhC-aligned regulated healthcare platform)
+- AIDDLC Reference Portal proven in production on Club Health OS (regulated healthcare SaaS platform)
 - Healthcare vertical worked example published at [github.com/aiddlc/examples](https://github.com/aiddlc/examples)
